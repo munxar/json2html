@@ -10,7 +10,7 @@ if sys.version_info[:2] < (2,7):
 setup(
     name = 'json2html',
     packages = ['json2html'],
-    version = '1.0.1',
+    version = '1.0.2',
     install_requires=required,
     description = 'JSON to HTML Table Representation',
     long_description=open('README.rst').read(),
@@ -25,5 +25,6 @@ setup(
         "Programming Language :: Python :: 2.5",
         "Programming Language :: Python :: 2.6",
         "Programming Language :: Python :: 2.7",
+        "Programming Language :: Python :: 3.5",
     ),
 )
